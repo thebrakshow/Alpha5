@@ -1,6 +1,7 @@
-// NeoPixel Ring simple sketch (c) 2013 Shae Erisson
-// Released under the GPLv3 license to match the rest of the
-// Adafruit NeoPixel library
+// Project:   Alpha 5 LED Config
+// creator:   Carlos Ruiz
+// Date:      8/30/2023
+
 
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
@@ -33,13 +34,9 @@ void setup() {
   pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
 }
 
-
 int direction = 0;
 int leftLED = 0;
 int rightLED = 0;
-
-
-
 
 void loop() {
   // pixels.clear(); // Set all pixel colors to 'off'

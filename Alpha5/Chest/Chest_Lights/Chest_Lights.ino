@@ -2,6 +2,7 @@
 // creator:   Carlos Ruiz
 // Date:      8/30/2023
 
+
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
  #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
